@@ -6,7 +6,7 @@ pipeline {
  
         stage('Build docker'){
             steps {
-                sh 'node --v'
+                sh 'docker ps -a'
                 echo 'Init'
                 echo '******************************'
             }
